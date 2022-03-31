@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <upload-block/>
+    <questions-block class="questions"/>
+    <converter-block/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import UploadBlock from '@/components/UploadBlock.vue'
+import QuestionsBlock from '@/components/QuestionsBlock.vue'
+import ConverterBlock from '@/components/ConverterBlock.vue'
+
+
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    UploadBlock,
+    QuestionsBlock,
+    ConverterBlock,
   }
 }
 </script>
+<style lang="sass" scoped>
+.questions
+  margin: 50px 0px
+</style>
