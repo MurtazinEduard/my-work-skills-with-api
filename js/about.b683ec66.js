@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunknew_tech_v2"]=self["webpackChunknew_tech_v2"]||[]).push([[443],{629:function(e,t,r){r.r(t),r.d(t,{default:function(){return i}});var n=r(252);const u={class:"about"},f=(0,n._)("a",{target:"_blank",href:"https://hh.ru/resume/df7857dfff09c6ba010039ed1f47344f333776?hhtmFrom=resume_list"},"Ссылка на HH.ru",-1),s=[f];function a(e,t){return(0,n.wg)(),(0,n.iD)("div",u,s)}var c=r(744);const h={},d=(0,c.Z)(h,[["render",a]]);var i=d}}]);
+//# sourceMappingURL=about.b683ec66.js.map
